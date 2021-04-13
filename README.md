@@ -22,19 +22,14 @@ Single task system<br>
     
   2. step by step<br>
     \# feature extraction part <br>
-    ```Bash
     bash run_only_accent.sh --nj 20 --steps 1-3<br>
-    ```
-    
+      
     \# single accent recognition training<br>
-    ```Bash
     bash run_only_accent.sh --nj 20 --steps 4<br>
-    ```
-    
+
     \# single accent recognition training and use asr Init, you should run the asr model first, and use asr model to replace `pretrained_model` variable in run_only_accent.sh <br>
-    ```Bash
     bash run_only_accent.sh --nj 20 --steps 5<br>
-    ```
+    
     
     
  
