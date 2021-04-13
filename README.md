@@ -19,8 +19,6 @@ Instructions for use
     `run_only_accent.sh` is used to train a single accent recognition model.<br>
     Before running, you need to first put the model file(model/espnet/nets/pytorch_backend/e2e_asr_transformer_only_accent.py) to your espnet directory.<br>
     eg:  `model/espnet/nets/pytorch_backend/e2e_asr_transformer_only_accent.py` to `/your espnet localtion/espnet/nets/pytorch_backend` <br>
-
-    (2) Step by step<br>
     # feature extraction part<br>
     bash run_only_accent.sh --nj 20 --steps 1-3<br>
     # single accent recognition training<br>
