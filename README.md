@@ -25,9 +25,9 @@
     The model training is divided into two parts, using ASR init and not using ASR init. <br>
     You can control the steps by changing the value of the step variable. <br>
     egs: <br>
+    
     ```Bash
       bash run_only_accent.sh --nj 20 --steps 1-2
-      
       bash run_only_accent.sh --nj 20 --steps 3
       bash run_only_accent.sh --nj 20 --steps 4
       bash run_only_accent.sh --nj 20 --steps 5
