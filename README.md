@@ -31,7 +31,7 @@
     The overall code is divided into four parts, including feature extraction, JSON file generation, model training and decoding. 
     The model training is divided into two parts, using ASR init and not using ASR init. 
     You can control the steps by changing the value of the step variable. 
-    egs: <br>
+    egs: 
     
     ```Bash
       bash run_only_accent.sh --nj 20 --steps 1-2
