@@ -26,11 +26,11 @@ Single task system<br>
     You can control the steps by changing the value of the step variable. <br>
     egs: <br>
     ```Bash
-      bash run_only_accent.sh --nj 20 --steps 1-2 <br>
-      bash run_only_accent.sh --nj 20 --steps 3 <br>
-      bash run_only_accent.sh --nj 20 --steps 4 <br>
-      bash run_only_accent.sh --nj 20 --steps 5 <br>
-      bash run_only_accent.sh --nj 20 --steps 6 <br>
+      bash run_only_accent.sh --nj 20 --steps 1-2
+      bash run_only_accent.sh --nj 20 --steps 3
+      bash run_only_accent.sh --nj 20 --steps 4
+      bash run_only_accent.sh --nj 20 --steps 5
+      bash run_only_accent.sh --nj 20 --steps 6
     ```
     
     
