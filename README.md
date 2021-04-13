@@ -21,7 +21,8 @@ Instructions for use
     eg: you espnet directory:`/home/***/espnet` <br>
     you shoud move `model/espnet/nets/pytorch_backend/e2e_asr_transformer_only_accent.py` to `/home/***/espnet/nets/pytorch_backend` <br>
     
-    (2) Step by step
+    (2) Step by step<br>
+    
     ```Bash
     bash run_only_accent.sh --nj 20 --steps 1-3           #### feature extraction and dump to json
     bash run_only_accent.sh --nj 20 --steps 4             # model training
