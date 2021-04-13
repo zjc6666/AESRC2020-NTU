@@ -18,11 +18,15 @@ Instructions for use
     (1) Model file preparation
     `run_only_accent.sh` is used to train a single accent recognition model.<br>
     Before running, you need to first put the model file(model/espnet/nets/pytorch_backend/e2e_asr_transformer_only_accent.py) to your espnet directory.<br>
-    eg: you espnet directory:"/home/***/espnet" <br>
-    you shoud move model/espnet/nets/pytorch_backend/e2e_asr_transformer_only_accent.py to /home/***/espnet/nets/pytorch_backend <br>
+    eg: you espnet directory:`/home/***/espnet` <br>
+    you shoud move `model/espnet/nets/pytorch_backend/e2e_asr_transformer_only_accent.py` to `/home/***/espnet/nets/pytorch_backend` <br>
     
-    (32) Feature extraction
-    
+    (2) Step by step
+    ```Bash
+    bash run_only_accent.sh --nj 20 --steps 1-3           #### feature extraction and dump to json
+    bash run_only_accent.sh --nj 20 --steps 4             # model training
+    bash run_only_accent.sh --nj 20 --steps 5             # model training use asr init
+    ```
     
  
     
