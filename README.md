@@ -9,7 +9,9 @@
   
 # Instructions for use
 ## Data preparation<br>
-    All the data used in the experiment are stored in the `data` directory, in which train is used for training, valid is the verification set, cv_all and test are used for testing respectively.<br>
+    All the data used in the experiment are stored in the `data` directory, in which train is used for training, 
+    valid is the verification set, cv_all and test are used for testing respectively.<br>
+    
     In order to better reproduce my experimental results, you can download the data set first, and then directly change the path in `wav.scp` in different sets in `data` directory.
     You can also use the `sed` command to replace the path in the wav.scp file with your path.<br>
     Other files can remain unchanged, you can use it directly (eg, utt2IntLabel, utt2accent, text, utt2spk...).
