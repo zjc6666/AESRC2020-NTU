@@ -21,11 +21,11 @@ Single task system<br>
     eg:  `model/espnet/nets/pytorch_backend/e2e_asr_transformer_only_accent.py` to `/your espnet localtion/espnet/nets/pytorch_backend` <br>
     
   2. step by step
-    # feature extraction part<br>
+    \# feature extraction part <br>
     bash run_only_accent.sh --nj 20 --steps 1-3<br>
-    # single accent recognition training<br>
+    \# single accent recognition training<br>
     bash run_only_accent.sh --nj 20 --steps 4<br>
-    # single accent recognition training and use asr Init, you should run the asr model first, and use asr model to replace `pretrained_model` variable in run_only_accent.sh <br>
+    \# single accent recognition training and use asr Init, you should run the asr model first, and use asr model to replace `pretrained_model` variable in run_only_accent.sh <br>
     bash run_only_accent.sh --nj 20 --steps 5<br>
     
     
