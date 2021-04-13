@@ -14,19 +14,19 @@ Instructions for use
     You can also use the `sed` command to replace the path in the wav.scp file with your path.<br>
     Other files can remain unchanged, you can use it directly (eg, utt2IntLabel, utt2accent, text, utt2spk...).
 
-  2. Single task system
-    (1) Model file preparation
+  2. Single task system<br>
+    (1) Model file preparation<br>
     `run_only_accent.sh` is used to train a single accent recognition model.<br>
     Before running, you need to first put the model file(model/espnet/nets/pytorch_backend/e2e_asr_transformer_only_accent.py) to your espnet directory.<br>
     eg:  `model/espnet/nets/pytorch_backend/e2e_asr_transformer_only_accent.py` to `/your espnet localtion/espnet/nets/pytorch_backend` <br>
 
-    (2) Step by step
-    # feature extraction part
-    bash run_only_accent.sh --nj 20 --steps 1-3
-    # single accent recognition training
-    bash run_only_accent.sh --nj 20 --steps 4
-    # single accent recognition training and use asr Init, you should run the asr model first, and use asr model to replace `pretrained_model` variable in run_only_accent.sh
-    bash run_only_accent.sh --nj 20 --steps 5
+    (2) Step by step<br>
+    # feature extraction part<br>
+    bash run_only_accent.sh --nj 20 --steps 1-3<br>
+    # single accent recognition training<br>
+    bash run_only_accent.sh --nj 20 --steps 4<br>
+    # single accent recognition training and use asr Init, you should run the asr model first, and use asr model to replace `pretrained_model` variable in run_only_accent.sh <br>
+    bash run_only_accent.sh --nj 20 --steps 5<br>
     
     
  
